@@ -9,4 +9,3 @@ calculate = ( (initialCarbon) * math.exp(constantA * timeElapsed));
 for year in range(100, timeElapsed+1, 100):
     calculatee = ( (initialCarbon) * math.exp(constantA * year))
     print("After " +str(year)+ " years, the amount of Carbon-14 will be: " +str(calculatee));
-    # should show up
