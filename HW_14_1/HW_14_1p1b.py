@@ -14,4 +14,4 @@ while(currentCarbon > desiredCarbon):
         break
     if(year % 100 == 0):
         print("The expected amount of Carbon-14 at year: " + str(int(year)) + " is: " + str(currentCarbon));
-    year += 100
+    year += 100;
