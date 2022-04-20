@@ -1,4 +1,4 @@
-dailyDeposit = float(input("Enter the amount of your initial deposit: "));
+dailyDeposit = float(input("Enter the amount of your daily deposit: "));
 interestRate = ((float(input("Enter your interest rate: "))) / 100);
 desiredBal = float(input("Enter your desired final Balance: "));
 currentBal = 0;
