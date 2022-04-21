@@ -1,7 +1,7 @@
 import math;
 
 initialCarbon = int(input("Enter the initial amount of carbon: "));
-desiredCarbon = float((input("Enter the desored amount of carbon: ")));
+desiredCarbon = float((input("Enter the desired amount of carbon: ")));
 constantA = ( (math.log(1/2) / 5730) );
 
 year = 0;
