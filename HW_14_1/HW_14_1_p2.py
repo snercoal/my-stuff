@@ -5,7 +5,7 @@ currentBal = 0;
 day = 0;
 while(currentBal < desiredBal):
     currentBal = (currentBal + (currentBal * interestRate) + dailyDeposit);
-    day += 2;
+    day += 1;
 finalBal = round(currentBal, 2)
 years = (day / 365);
 print("Your Balance of " + str(finalBal) + " will be reached in " + str(round(years, 3)) + " years");
